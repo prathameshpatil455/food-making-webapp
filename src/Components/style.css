@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #fcde67;
+}
+
+.main{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading h1{
+    color: #030e12;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding-top: 30px;
+    margin: 15px;
+}
+
+.search-bar{
+    margin: 15px 0;
+    width: 400px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 8px 15px;
+}
+
+.container{
+    width: 80%;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 2rem;
+}
+
+.card{
+    width: 180px;
+    border-radius: 15px;
+    background-color: #030e12;
+    padding: 5px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.card h3{
+    color: white;
+    font-size: 18px;
+}
+
+.indexContainer{
+    display: flex;
+    margin: 50px 0;
+}
+
+.numBox{
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #030e12;
+    color: white;
+    margin: 0 5px 0 5px;
+}
+
